@@ -62,6 +62,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; /*contain*/ 
     background-attachment: fixed;
+    font-family: cursive, Lucida Handwriting;
   }
 
 
@@ -76,11 +77,11 @@ Définition du fond du header :
 */
 
 .background-header {
-    background-image: linear-gradient(0deg, rgb(1, 215, 253), rgba(16, 30, 219, 0.95)), url('../backgrounds/header_background.png');
+    background-image:  url('https://as1.ftcdn.net/jpg/03/75/69/82/1000_F_375698233_fbDZLe19UkxuAixC261FPcHjTAeHEjPk.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /*contain*/ 
-  }
+}
 
 /*
 Couleur des éléments de navigations :
@@ -89,6 +90,7 @@ Couleur des éléments de navigations :
 
 .navbar {
     font-size: 0.8em;
+    background-color:#282454;
 }
 
 .nav-link-icon {
@@ -115,7 +117,7 @@ Couleur des éléments de navigations :
 
 .dropdown-item {
     font-weight: bold;
-    color: black;
+    color: #1B03A3;
 }
 
 .dropdown-item:active {
@@ -125,13 +127,20 @@ Couleur des éléments de navigations :
 
 
 .navbar-toggler {
-    background-color: #8b8f8c;
+    background-color: #2F00FF;
 }
 
 h2,p, h1, h3, li {
-    color: white;
+    color: #0d2049;
+    font-size: 1.5em;
 }
 
 #Para {
-    color: #9acbf7;
+    color: #0d2049;
+}
+
+.card-body {
+    box-shadow: 6px 8px 12px rgba(0, 0, 0, 1);
+    border-radius: 12px;
+    background-color: #3ACBE8;
 }
